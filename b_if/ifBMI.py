@@ -16,3 +16,4 @@ elif bmi > 32:
 	print('超重')
 else:
 	print('数值错误')
+enter = input()

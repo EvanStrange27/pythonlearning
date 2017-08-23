@@ -19,6 +19,7 @@ while caozuo != 5:
     if caozuo == 0:
         print(goon,caidan)
         caozuo = int(input('请输入数字进行操作：'))
+        panduan = caozuo in caidanset
         if panduan == False:
             print('这个数字？不存在的，在下面重新输个')
             caozuo = 0
